@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta: Guiso de Lentejas</title>
+    <!-- Fuente Fredoka para el título principal -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Iconos de FontAwesome para las redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/decoracion.css">
+  </head>
+  <body>
+
+    <!-- ENCABEZADO SUPERIOR -->
+    <header id="inicio">
+      <div class="header-contenido">
+        <span class="logo-texto">🍲 Recetario Criollo</span>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.potrerodigital.org/">Potrero Digital</a>
+      </div>
+
+      <!-- TÍTULO PRINCIPAL -->
+      <h1>Guiso de lentejas</h1>
+
+      <!-- BARRA DE NAVEGACIÓN (Según tu boceto: Inicio, Historia, Galería, Contacto) -->
+      <nav class="menu-navegacion">
+        <a href="#inicio" class="btn-nav">INICIO</a>
+        <a href="#historia" class="btn-nav">HISTORIA</a>
+        <a href="#galeria" class="btn-nav">GALERÍA</a>
+        <a href="#contacto" class="btn-nav">CONTACTO</a>
+      </nav>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL EN 2 COLUMNAS (Izquierda: Receta | Derecha: Fotos/Multimedia) -->
+    <main class="contenedor-principal">
+
+      <!-- COLUMNA IZQUIERDA: INGREDIENTES Y PREPARACIÓN -->
+      <div class="columna-izquierda">
+
+        <!-- BLOQUE 1: INGREDIENTES -->
+        <section class="tarjeta">
+          <h2 class="azul">Ingredientes</h2>
+          <ul>
+            <li>600g de lentejas</li>
+            <li>150g de panceta ahumada</li>
+            <li>500g de roast beef</li>
+            <li>2 cebollas picadas</li>
+            <li>2 cebollas de verdeo picadas</li>
+            <li>Dos latas de salsa de tomate</li>
+            <li>3 cucharadas de aceite</li>
+            <li>Caldo hasta cubrir</li>
+            <li>Dos papas</li>
+            <li>Chorizo colorado</li>
+            <li>Una hoja de laurel</li>
+            <li>Sal, pimienta y ají molido a gusto</li>
+          </ul>
+        </section>
+
+        <!-- BLOQUE 2: PREPARACIÓN Y AUDIO -->
+        <section class="tarjeta">
+          <h2 class="verde">Preparación</h2>
+          <ol>
+            <li>Para preparar el guiso de lentejas necesitamos 500 gramos de lentejas, una cebolla, un morrón rojo, dos zanahorias, dos papas, un chorizo colorado, 200 gramos de panceta, una caja de puré de tomate, dos dientes de ajo, un litro de caldo o agua, aceite, sal, pimienta, pimentón y orégano.</li>
+          </ol>
+
+          <div class="caja-audio">
+            <p>🎵 Ambientación para cocinar:</p>
+            <audio controls src="./sonidos/kill-bill-silbido.mp3"></audio>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- COLUMNA DERECHA (ASIDE): IMÁGENES, VIDEO Y MAPA -->
+      <aside class="columna-derecha" id="galeria">
+
+        <!-- RECUADRO SUPERIOR DERECHO: FOTO DEL PLATO -->
+        <div class="tarjeta">
+          <h3 class="subtitulo-aside">📸 Plato Terminado</h3>
+          <img src="https://marubotana.tv/uploads/responsive/2026/03/guiso-de-lentejas-1200.webp" alt="Plato de guiso de lentejas">
+        </div>
+
+        <!-- RECUADRO INFERIOR DERECHO: VIDEO -->
+        <div class="tarjeta">
+          <h3 class="subtitulo-aside">📺 Video Paso a Paso</h3>
+          <div class="embed-responsivo">
+            <iframe src="https://www.youtube.com/embed/qRHymy7Ue4E?si=Ff7jqVTgGnf1c8rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <!-- RECUADRO ADICIONAL: ORIGEN / MAPA -->
+        <div class="tarjeta" id="historia">
+          <h3 class="subtitulo-aside">📍 Origen Histórico (Mesopotamia)</h3>
+          <div class="embed-responsivo">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5214842.739795799!2d44.92192444999999!3d33.086785649999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1557f90df37db8b7%3A0x40ce08e2e8ab0d6b!2sMesopotamia%2C%20Irak!5e1!3m2!1ses-419!2sar!4v1794007180882!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+        </div>
+
+      </aside>
+
+    </main>
+
+    <!-- PIE DE PÁGINA (Según tu boceto: Redes a la izquierda y texto/info a la derecha) -->
+    <footer id="contacto">
+      <div class="footer-contenido">
+
+        <!-- ENLACES DIRECTOS A REDES SOCIALES -->
+        <div class="redes-sociales">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="red-btn fb" title="Facebook">
+            <i class="fab fa-facebook-f"></i> Facebook
+          </a>
+          <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="red-btn wa" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="red-btn tw" title="Twitter / X">
+            <i class="fab fa-twitter"></i> Twitter
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="red-btn ig" title="Instagram">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="https://www.potrerodigital.org/" target="_blank" rel="noopener noreferrer" class="red-btn pd" title="Potrero Digital">
+            <i class="fas fa-graduation-cap"></i> Potrero Digital
+          </a>
+        </div>
+
+        <!-- INFORMACIÓN DERECHA DEL FOOTER -->
+        <div class="footer-info">
+          <p><strong>Recetario Criollo - Guiso de Lentejas</strong></p>
+          <p>Proyecto Web desarrollado para Potrero Digital © 2026</p>
+        </div>
+
+      </div>
+    </footer>
+
+  </body>
+</html>
